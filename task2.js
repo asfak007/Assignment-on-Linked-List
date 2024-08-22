@@ -52,3 +52,5 @@ let list1 = createLinkedList([1, 2, 4]);
 let list2 = createLinkedList([1, 3, 4]);
 let mergedList = mergeTwoLists(list1, list2);
 console.log(linkedListToArray(mergedList));  
+
+// Time Complexity: O(n + m) & Space Complexity: O(1)
